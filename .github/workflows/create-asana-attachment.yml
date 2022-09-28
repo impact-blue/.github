@@ -12,3 +12,6 @@ on:
     types:
       - opened
   workflow_call:
+    secrets:
+      ASANA_SECRET:
+        required: true
